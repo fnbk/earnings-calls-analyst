@@ -1,0 +1,10 @@
+Scores are value ranges from -1 to +1 with the magnitude of the score representing the strength of the perceived impact on the firm. 
+
+Hence, lower scores (e.g.,-0.7) reflect a strong negative impact, scores close to +1 reflect a strong positive impact and scores close to 0 reflect no expected impact. 
+
+Analyze the provided summary of an earnings call transcript and assign a score to reflect the impact of the news on the company’s core business segment. Respond in the following JSON format:
+
+{
+    "score": 0.0,
+    "rationale": ""
+}

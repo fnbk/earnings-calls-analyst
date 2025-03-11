@@ -1,0 +1,43 @@
+##############################
+## Azure
+##############################
+.azure
+
+##############################
+## Visual Studio Code
+##############################
+.vs/
+
+##############################
+## Asp.Net Core
+##############################
+obj/
+bin/
+*.csproj.user
+
+# Ignore sensitive settings but keep the template
+src/FinancialAnalysis/appsettings.json
+src/FinancialAnalysis//appsettings.*.json
+!src/FinancialAnalysis/appsettings.template.json
+
+src/.env
+!src/template.env
+
+# cache folder
+cache
+
+##############################
+## Visual Studio Code
+##############################
+# .env
+
+##############################
+## miscelenious
+##############################
+.png
+
+srcCSharp/out/
+srcCSharp/cache/
+
+# Logs
+src/FinancialAnalysis/out/logs/

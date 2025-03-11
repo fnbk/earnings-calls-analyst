@@ -1,0 +1,188 @@
+## Analyst Insight Score (AIS)
+
+Scores are value ranges from -1 to +1 with the magnitude of the score representing the strength of the perceived impact on the firm. Hence, lower scores (e.g.,-0.7) reflect a strong negative impact, scores close to +1 reflect a strong positive impact and scores close to 0 reflect no expected impact. 
+
+{
+    "Growth Potential": {
+        "Market and Geographic Expansion": [
+            "Market Expansion",
+            "Geographic Expansion",
+            "International Market Expansion",
+            "Expansion into New Markets",
+            "Global Market Penetration"
+        ],
+        "Product and Service Development": [
+            "Product Innovation",
+            "Service and Product Innovation",
+            "New Product and Service Offerings",
+            "Product and Service Expansion",
+            "Product Line Expansion"
+        ],
+        "Mergers, Acquisitions, and Partnerships": [
+            "Acquisition Strategy",
+            "Mergers and Acquisitions (M&A) Strategy",
+            "Strategic Acquisitions and Partnerships",
+            "Integration of Acquisitions",
+            "Strategic Collaborations and Partnerships"
+        ],
+        "Digital Transformation and E-commerce": [
+            "E-commerce Growth",
+            "Digital Engagement and E-commerce Adaptation",
+            "Cloud Services Adoption and Expansion",
+            "Technological Innovation and E-commerce Expansion",
+            "Online Sales Growth and E-commerce Strategy"
+        ],
+        "Operational Efficiency and Diversification": [
+            "Asset Optimization and Revenue Growth",
+            "Diversification of Revenue Streams",
+            "Efficiency in Operations",
+            "Asset Management and Strategic Investments",
+            "Diversification and Expansion of Operations"
+        ]
+    },
+    "Earnings Quality": {
+        "Revenue Quality and Sustainability": [
+            "Revenue Sustainability",
+            "Revenue Stability and Predictability",
+            "Revenue Diversification and Sustainability",
+            "Revenue Quality and Diversification",
+            "Sustainable Revenue Growth"
+        ],
+        "Cost Management and Efficiency": [
+            "Cost Control and Efficiency",
+            "Cost Management and Operating Efficiency",
+            "Expense Management and Efficiency",
+            "Margin Improvement and Cost Management",
+            "Sustainable Cost Management and Productivity"
+        ],
+        "Capital and Cash Flow Management": [
+            "Capital Allocation Efficiency",
+            "Cash Flow Consistency",
+            "Capital Expenditure Discipline",
+            "Cash Flow and Capital Allocation",
+            "Sustainability of Cash Flow"
+        ],
+        "Profitability and Margin Analysis": [
+            "Margin Consistency and Improvement",
+            "Profit Margin Sustainability",
+            "Margin Expansion Sustainability",
+            "Profitability and Margin Improvement",
+            "Sustainable Profit Margins"
+        ],
+        "Impact of External Factors and Accounting Practices": [
+            "Impact of Currency Exchange Rates",
+            "Impact of Acquisitions on Earnings",
+            "Revenue Recognition and Quality of Earnings",
+            "Tax Efficiency",
+            "Transparency in Financial Reporting"
+        ]
+    },
+    "Quality of Management": {
+        "Strategic Planning and Execution": [
+            "Execution of Strategic Initiatives",
+            "Long-term Strategic Vision",
+            "Strategic Decision-Making and Execution",
+            "Strategic Planning and Risk Mitigation",
+            "Strategic Vision and Long-Term Planning"
+        ],
+        "Capital and Financial Management": [
+            "Capital Allocation and Shareholder Value Optimization",
+            "Financial Discipline and Capital Allocation",
+            "Strategic Capital Allocation",
+            "Financial Stewardship and Capital Allocation",
+            "Dividend Policy and Shareholder Value"
+        ],
+        "Adaptability and Market Responsiveness": [
+            "Adaptability to Market Changes",
+            "Management’s Adaptability to Market Conditions",
+            "Responsiveness to Market Dynamics",
+            "Strategic Execution and Adaptability",
+            "Responsiveness to Regulatory Changes"
+        ],
+        "Leadership and Organizational Effectiveness": [
+            "Leadership Stability and Strategic Vision",
+            "Leadership Development and Succession Planning",
+            "Leadership and Vision",
+            "Governance and Leadership",
+            "Leadership Transition and Strategy Execution"
+        ],
+        "Operational and Cost Efficiency": [
+            "Operational Efficiency and Cost Management",
+            "Cost Management and Efficiency Initiatives",
+            "Efficiency and Cost Control",
+            "Strategic Cost Management",
+            "Expense Management and Operational Efficiency"
+        ]
+    },
+    "Risk": {
+        "Market and Economic Risks": [
+            "Macroeconomic and Currency Risks",
+            "Market and Economic Sensitivity",
+            "Economic and Political Uncertainties",
+            "Market and Credit Risk Exposure",
+            "Geopolitical and Economic Risks"
+        ],
+        "Credit and Financial Risks": [
+            "Credit Risk Management",
+            "Capital Adequacy and Liquidity",
+            "Asset Quality and Loan Performance",
+            "Financial Leverage and Liquidity Risks",
+            "Interest Rate and Credit Risk"
+        ],
+        "Operational and Compliance Risks": [
+            "Cybersecurity and Data Protection",
+            "Supply Chain and Operational Risks",
+            "Regulatory Compliance and Capital Requirements",
+            "Environmental and Regulatory Risks",
+            "Operational Efficiency and Cost Management"
+        ],
+        "Strategic and Business Risks": [
+            "Competitive Landscape and Market Dynamics",
+            "Adaptation to Market Changes",
+            "Business Diversification",
+            "Acquisition Strategy and Valuation Risks",
+            "Brand Perception and Customer Engagement"
+        ],
+        "Product and Technological Risks": [
+            "Technological Disruption Risks",
+            "Adaptation to Changing Consumer Behavior",
+            "Product Lifecycle and Patent Expiry",
+            "Research and Development Risks",
+            "Data Security and Consumer Confidence"
+        ]
+    }
+}
+
+---
+
+You are a financial analyst. Analyze the provided summary of an earnings call transcript and score it based on the provided criteria and subcriteria. Respond in the following JSON format:
+
+{  
+    "Growth Potential": {
+        "Market and Geographic Expansion": {
+            "Score": 0.0,
+            "Rationale": ""
+        },
+        "Product and Service Development": {
+            "Score": 0.0,
+            "Rationale": ""
+        },
+        "Mergers, Acquisitions, and Partnerships": {
+            "Score": 0.0,
+            "Rationale": ""
+        },
+        "Digital Transformation and E-commerce": {
+            "Score": 0.0,
+            "Rationale": ""
+        },
+        "Operational Efficiency and Diversification": {
+            "Score": 0.0,
+            "Rationale": ""
+        }
+    }
+    "Earnings Quality": {
+        ...
+    }
+    ...
+}
+

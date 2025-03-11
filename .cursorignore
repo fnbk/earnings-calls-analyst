@@ -1,0 +1,5 @@
+cache
+src/out
+src/obj
+src/bin
+src/.vs
